@@ -1,0 +1,9 @@
+package com.example.bugtracker.dto;
+
+import lombok.Data;
+
+@Data
+public class AuthRequest {
+    private String email;
+    private String password;
+}
